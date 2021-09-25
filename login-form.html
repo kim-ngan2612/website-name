@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="css/login-style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/login.js" async></script>
+</head>
+<body>
+    <div>
+        <div class ="login-page" id="login">
+            <h1>Đăng nhập tài khoản</h1>
+            <div class="input-box">
+                <i class="fa fa-user-to"></i>
+                <input type="text" placeholder="Họ và Tên" id="User"> 
+            </div>
+            <div class="input-box">
+                <i class="fa fa-key"></i>
+                <input type="password" placeholder="Mật Khẩu" id="pwd">
+                    <i class ="fa fa-eye" id="hide-eye"></i>
+                    <i class ="fa fa-eye-slash" id="hide-eye-slash"></i>
+                </span>
+            </div>
+            <button type="button" class="login-button" onclick="loginClick()">Đăng Nhập</button>
+        </div>
+        <div class="login-page" id="hello">
+            <h3>Xin chào</h3>
+            <h1 id="user-name">Tên Đăng Nhập</h1>
+            <p><a href="#" onclick="logoutClick()">Đăng xuất?</a></p>
+        </div>
+    </div>
+</body>
+</html>
